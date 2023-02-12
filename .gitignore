@@ -10,6 +10,14 @@ __pycache__/
 *.json
 *.pickle
 *.pkl
+*.model
+*.state
+*.id2word
+*.npy
+*.dict
+*.mm
+*.index
+
 
 # Distribution / packaging
 .Python
