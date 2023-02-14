@@ -1,2 +1,3 @@
 # Fallout-Series-Steam-Reviews-Sentiment-Analysis
-![capsule_616x353](https://user-images.githubusercontent.com/108106393/218853995-219d0876-8bf6-47e6-b475-7c2f5ec47bae.jpg)
+![8d22f283b530203b355e0b9800a4cd09](https://user-images.githubusercontent.com/108106393/218854660-307ddfeb-4a22-4342-b336-a92f02a75e61.png)
+
