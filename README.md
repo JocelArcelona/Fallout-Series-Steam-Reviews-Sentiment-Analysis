@@ -17,9 +17,13 @@ The data used in this project was scraped from the STEAM app. It contained 320,0
 # Methods 
 
 Data Collection: I had to manually web scrape reviews from all the 6 different Fallout Titles from the STEAM app (Fallout 3, Fallout 3 Game of The Year Edition, Fallout 4, Fallout 76, Fallout New Vegas, Fallout Shelter). I originally scraped 320,000 datapoints after combining all reviews
+
 Data Pre-processing for NLTK (Unigrams): For my NLTK preprocessing, I used a function that lowercases textual data, removes all the stop words, removes all non-english patterns, tokenizes then lemmatizes the data before vectorization. Once the data has been cleaned, I vectorized it to prepare it for predictive modeling along with all my other numerical features. 
+
 Data Pre-processing for Gensim (Bigrams): For my Gensim preprocessing, I did the same data cleaning on my reviews and once the data is cleaned, I plugged it to Gensim's Phrases object to generate Bigrams. I vectorized these Bigrams, converted it to an array and added it to my numerical features for predictive modeling. 
+
 Data Visualization and EDA: I wanted to see which words under the positive and negative reviews will show up the most so I used Gensim's Topic Modeling to generate topics and create a visualization of the words that occur the most in those topics. 
+
 Modeling: I used accuracy as my metric for my prediction modeling. After cleaning the textual data, vectorizing it and concatenating it with the numerical features in the original dataframe, I created pipelines for each model I used. I used 4 different machine learning models namely: Multinomial Naive Bayes, Decision Trees, Random Forest and XGBoost. And due to memory allocation error, I had to reduce my feature space of 50,000 down to 530 features for the NLTK Unigrams and 29,000 features down to 330 features for the Gensim Bigrams for modeling. I addressed the data imbalance with Synthetic Minority Over Sampling Technique and after running my predictions, I visualized the ratio of my false negatives to my false positives using the ROC-AUC curve. I also used an ensemble method and stacked Multionomial Naive Bayes and XGBoost together, this classifier yielded an accuracy of 93% which is the same as the the accuracy of the XGBoost model by itself but the stacked classifier provided a better balance between the recall and the precision so I picked this as my best model. 
 
 # Visualizations 
