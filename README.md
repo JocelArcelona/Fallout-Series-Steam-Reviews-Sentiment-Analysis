@@ -39,9 +39,11 @@ This is the result of my best model, Stacked Classifier using Multinomial Naive 
 These graphs shows which features are the most important derived from my stacked classifier:
 
 Numerical Features:
+
 ![numfeatures](https://user-images.githubusercontent.com/108106393/219450496-f0f82684-0b95-47ac-a7cf-6c3ebb79efc4.png)
 
 Word Features:
+
 ![wordfeat](https://user-images.githubusercontent.com/108106393/219450639-a947252d-38b4-4ac0-a865-8ed7df2e2efb.png)
 
 # Recommendations
