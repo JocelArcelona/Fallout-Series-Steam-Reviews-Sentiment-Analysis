@@ -47,5 +47,11 @@ Word Features:
 ![wordfeat](https://user-images.githubusercontent.com/108106393/219450639-a947252d-38b4-4ac0-a865-8ed7df2e2efb.png)
 
 # Recommendations
-1. 
+1. Fix technical issues like glitches, bugs, frequent crashes and launching issues 
+2. Reduce the number of in game microtransactions
+3. Improve the storyline
 
+# Future Steps 
+1. Data Collection: Gather more Fallout Series reviews from other gaming platforms like Epic Games, Origins, Xbox Pass etc.
+2. Data Translation: Use a python package translator to translate non-english reviews for better generalizability 
+3. Use PySpark for bigger data 
